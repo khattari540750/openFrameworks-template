@@ -21,3 +21,17 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+
+
+# openFrameworks
+#
+
+## Framework
+/openFrameworks/*
+
+## Apps
+!/openFrameworks/apps/
+/openFrameworks/apps/myApps/emptyExample/
+
+## Bin
+**/bin/*.app
