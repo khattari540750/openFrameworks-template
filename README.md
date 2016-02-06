@@ -3,7 +3,7 @@
 A template for openFrameworks.
 
 
-## Usuage
+## Usage
 
 ```
 $ git clone https://github.com/yuhki50/openFrameworks-template.git
