@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 # variables
-of_version=v0.9.1
+of_version=v0.9.2
 of_platform=osx
 of_package_name=of_${of_version}_${of_platform}_release
 of_url=http://openframeworks.cc/versions/${of_version}/${of_package_name}.zip
