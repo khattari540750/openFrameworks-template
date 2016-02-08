@@ -2,8 +2,9 @@
 
 # variables
 of_version=v0.9.1
-of_name=of_${of_version}_osx_release
-of_url=http://openframeworks.cc/versions/${of_version}/${of_name}.zip
+of_platform=osx
+of_package_name=of_${of_version}_${of_platform}_release
+of_url=http://openframeworks.cc/versions/${of_version}/${of_package_name}.zip
 working_dir=`mktemp -d`
 script_dir=`dirname $0`
 
@@ -29,13 +30,14 @@ echo working directory: ${working_dir}
 # process
 if [ -e "${zip_file}" ]; then
   echo zip file: ${zip_file}
-  cp ${zip_file} ${working_dir}/${of_name}.zip
+  of_package_name=`echo ${zip_file} | xargs basename -s .zip`
+  cp ${zip_file} ${working_dir}/${of_package_name}.zip
 else
-  curl ${of_url} -o ${working_dir}/${of_name}.zip
+  curl ${of_url} -o ${working_dir}/${of_package_name}.zip
 fi
 
-unzip ${working_dir}/${of_name}.zip -d ${working_dir}
-rsync -av ${working_dir}/${of_name}/ ${script_dir}/../openFrameworks
+unzip ${working_dir}/${of_package_name}.zip -d ${working_dir}
+rsync -av ${working_dir}/${of_package_name}/ ${script_dir}/../openFrameworks
 
 echo Success!
 
