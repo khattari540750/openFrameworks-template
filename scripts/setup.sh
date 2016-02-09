@@ -1,5 +1,12 @@
 #!/bin/bash -e
 
+# openFrameworks-template
+# https://github.com/yuhki50/openFrameworks-template
+#
+# Copyright (c) yuhki50
+# This software is released under the MIT License.
+# http://opensource.org/licenses/mit-license.php
+
 # variables
 of_version=v0.9.2
 of_platform=osx
