@@ -12,7 +12,7 @@ of_version=v0.9.2
 of_platform=osx
 of_package_name=of_${of_version}_${of_platform}_release
 of_url=http://openframeworks.cc/versions/${of_version}/${of_package_name}.zip
-working_dir=`mktemp -d`
+working_dir=`mktemp -d -t tmp`
 script_dir=`dirname $0`
 
 # function
