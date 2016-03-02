@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.1 (2016-03-02)
+
+* fix mktemp error
+
+
 ## 1.1.0 (2016-02-10)
 
 * Upgrade openFrameworks version
