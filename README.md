@@ -15,7 +15,7 @@ $ sh ./scripts/setup.sh
 ## Target
 
 * openFrameworks for osx
-    * [of_v0.9.2_osx_release.zip](http://openframeworks.cc/versions/v0.9.2/of_v0.9.2_osx_release.zip)
+    * [of_v0.9.8_osx_release.zip](http://openframeworks.cc/versions/v0.9.8/of_v0.9.8_osx_release.zip)
 
 
 ## Licensing

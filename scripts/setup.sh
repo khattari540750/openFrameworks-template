@@ -8,7 +8,7 @@
 # http://opensource.org/licenses/mit-license.php
 
 # variables
-of_version=v0.9.2
+of_version=v0.9.8
 of_platform=osx
 of_package_name=of_${of_version}_${of_platform}_release
 of_url=http://openframeworks.cc/versions/${of_version}/${of_package_name}.zip
