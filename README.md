@@ -6,7 +6,7 @@ A template for openFrameworks.
 ## Usage
 
 ```
-$ git clone https://github.com/yuhki50/openFrameworks-template.git
+$ git clone https://github.com/khattari540750/openFrameworks-template.git
 $ cd openFrameworks-template
 $ sh ./scripts/setup.sh
 ```
@@ -19,6 +19,5 @@ $ sh ./scripts/setup.sh
 
 
 ## Licensing
-
 openFrameworks-template is licensed under the MIT. See [LICENSE](https://github.com/yuhki50/openFrameworks-template/blob/master/LICENSE) for the full
 license text.
